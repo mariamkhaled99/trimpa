@@ -21,24 +21,23 @@ To get started with the project, follow these steps:
    git clone https://github.com/mariamkhaled99/trimpa.git
    ```
 
-````
+
 2. **go to your project**
 
- ```bash
- cd trimpa
-````
+    ```bash
+    cd trimpa
+    ````
 
 3. **install npm or yarn**
 
    ```bash
    npm install
    ```
+    or
 
-````
-or
- ```bash
- yarn install
-````
+   ```bash
+    yarn install
+    ````
 
 4. **run your project**
 
