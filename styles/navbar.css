@@ -1,0 +1,21 @@
+.link-flights {
+  text-decoration: none;
+  color: #605dec;
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: #7c8db0;
+}
+.sign-up-btn {
+  color: #fafafa;
+  background-color: #605dec;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-align: center;
+
+  font-size: 16px;
+}

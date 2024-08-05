@@ -1,0 +1,17 @@
+.text-image {
+  font-size: 96px;
+  font-weight: 800;
+  background: url("../public/gradient.png") no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+
+  align-items: center;
+  color: transparent;
+  line-height: 90px;
+}
+.world-background {
+  background-image: url("../public/world.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
