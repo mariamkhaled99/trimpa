@@ -1,10 +1,16 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Link from "next/link";
-
 import "@/styles/navbar.css";
 import { Box, Flex, Spacer, Button, Image } from "@chakra-ui/react";
+import SignUp from "@/components/signup"; // Adjust the import path as needed
 
 const Navbar = () => {
+  const [isSignUpOpen, setSignUpOpen] = useState(false);
+
+  const openSignUp = () => setSignUpOpen(true);
+  const closeSignUp = () => setSignUpOpen(false);
+
   return (
     <>
       <Flex alignItems="center">
@@ -38,13 +44,15 @@ const Navbar = () => {
           </Box>
 
           <Box mx={20}>
-            <Link href="/signup" className="link" passHref>
-              <Button className="sign-up-btn">Sign up</Button>
-            </Link>
+            <Button className="sign-up-btn" onClick={openSignUp}>
+              Sign up
+            </Button>
           </Box>
         </Flex>
       </Flex>
-      </>
+
+      <SignUp isOpen={isSignUpOpen} onClose={closeSignUp} />
+    </>
   );
 };
 
