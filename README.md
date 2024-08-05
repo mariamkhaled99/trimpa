@@ -1,5 +1,7 @@
 # Trimpa
 
+![Trimpa Logo](./public/logo.svg)
+
 ## Overview
 
 `Trimpa` is the frontend project for a trip company, developed using [Next.js](https://nextjs.org/). This project serves as the client-side application for managing and displaying trip-related information.
@@ -21,23 +23,23 @@ To get started with the project, follow these steps:
    git clone https://github.com/mariamkhaled99/trimpa.git
    ```
 
-
 2. **go to your project**
 
-    ```bash
-    cd trimpa
-    ````
+   ```bash
+   cd trimpa
+   ```
 
 3. **install npm or yarn**
 
    ```bash
    npm install
    ```
-    or
+
+   or
 
    ```bash
     yarn install
-    ````
+   ```
 
 4. **run your project**
 
