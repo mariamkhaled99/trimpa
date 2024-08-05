@@ -14,7 +14,10 @@ body {
   margin: 0;
 }
 
-main {
+.main-class {
   text-align: center;
-  margin: 8rem auto;
+  background-image: url("/world.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }

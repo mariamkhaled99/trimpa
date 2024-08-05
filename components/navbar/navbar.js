@@ -6,7 +6,7 @@ import { Box, Flex, Spacer, Button, Image } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
-    <Box bg="white" px={4} py={6}>
+    <>
       <Flex alignItems="center">
         <Box>
           <Image src="/logo.svg" alt="Logo" />
@@ -44,7 +44,7 @@ const Navbar = () => {
           </Box>
         </Flex>
       </Flex>
-    </Box>
+      </>
   );
 };
 

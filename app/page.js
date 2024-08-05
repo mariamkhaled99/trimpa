@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
 import SignUp from "@/components/signup";
 import World from "@/components/world";
 
@@ -15,10 +14,10 @@ export default function Home() {
     setSignUpOpen(false);
   };
   return (
-    <main>
+    <main className="main-class">
       <World />
 
-      <SignUp isOpen={isSignUpOpen} onClose={handleCloseSignUp} />
+      {/* <SignUp isOpen={isSignUpOpen} onClose={handleCloseSignUp} /> */}
     </main>
   );
 }
