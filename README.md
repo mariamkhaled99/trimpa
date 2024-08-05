@@ -1,6 +1,6 @@
-# Trimpa
-
 ![Trimpa Logo](./public/logo.svg)
+
+#
 
 ## Overview
 
