@@ -1,57 +1,89 @@
+/* styles/search.css */
 .search-home {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 1200px;
-  
+  padding: 4px; /* Smaller padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  border-radius: 8px; /* Optional: adds rounded corners */
+  background-color: white; /* Ensure background color is set */
+}
+
+/* Container for the input/select and its corresponding icon */
+.input-container {
   display: flex;
   align-items: center;
-}
-
-.select-field {
-  -moz-appearance: none; /* Remove default arrow */
-  -webkit-appearance: none; /* Remove default arrow for Safari */
-  appearance: none; /* Remove default arrow for Firefox */
-  padding-left: 40px;
-  border-color: #e2e8f0; /* Gray border color */
-  padding-right: 30px; /* Space for the icon */
   position: relative;
-  z-index: 1;
+  margin-right: 4px; /* Reduced margin */
 }
 
-.select-field:focus {
-  border-color: #605dec;
-  box-shadow: 0 0 0 2px #605dec;
-}
-
-.select-field option:checked {
-  background-color: #605dec; /* Change background color of selected option */
-  color: white; /* Change text color of selected option */
-}
-
+/* Image icon styles */
 .input-icon {
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
-  z-index: 2; /* Ensure icon appears above select field */
+  margin-right: 4px; /* Adjusted margin */
+  width: 30px; /* Icon size */
+  height: 30px; /* Icon size */
 }
 
+/* Styles for the separator between input fields */
 .separator {
-  height: 30px;
-  border-left: 1px solid #ccc;
-  margin: 0 16px;
+  width: 1px;
+  height: 24px; /* Smaller height */
+  background-color: #ddd;
+  margin: 0 4px; /* Reduced margin */
 }
 
+/* Styles for the search button */
 .search-btn {
-  background-color: #605dec;
+  background-color: #605dec; /* Your chosen color */
   color: white;
-  border-radius: 4px;
-  padding: 8px 12px;
+  padding: 12px 24px; /* Smaller padding */
+  border: none;
+  cursor: pointer;
+  font-size: 12px; /* Smaller font size */
+  border-radius: 4px; /* Optional: adds rounded corners */
 }
 
 .search-btn:hover {
-  background-color: #4a5fd2;
+  background-color: #4842cc; /* Darker shade of your chosen color */
+}
+
+/* Custom styles for dropdown menus */
+.select-field {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: none; /* Removed border */
+  border-radius: 4px; /* Optional: adds rounded corners */
+  padding: 8px;
+  font-size: 14px; /* Adjust font size as needed */
+  width: 150px; /* Adjusted width */
+}
+
+/* Menu List */
+.menu-list {
+  width: 150px; /* Adjusted width */
+  box-shadow: none;
+  border: none !important; /* Ensure no border */
+  background-color: white; /* Background color for options */
+}
+
+/* Menu Items */
+.menu-item {
+  background-color: white !important; /* White background for menu items */
+  border: none !important; /* Remove border */
+  box-shadow: none;
+  padding: 8px;
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+/* Menu Item on focus */
+.menu-item:hover, .menu-item:focus {
+  background-color: #605dec !important; /* Purple blue on focus */
+  color: white;
+}
+
+/* Ensure the Select component and its placeholder are properly aligned */
+.react-select__input-container {
+  padding: 0;
+}
+
+.react-select__placeholder {
+  color: #7c8db0; /* Placeholder color */
 }

@@ -25,6 +25,7 @@ const CardContainer = ({
           justifyContent: "center",
           alignItems: "center",
           marginTop: "20px",
+          marginBottom: "80px",
           width: "90%",
           marginLeft: "auto",
           marginRight: "auto",
@@ -33,7 +34,7 @@ const CardContainer = ({
         <Text className="fligt-deals-h">
           {title}
 
-          <Link href="#" className={link_class}>
+          <Link href="#" className={link_class} passHref>
             {link}
           </Link>
         </Text>
@@ -43,6 +44,7 @@ const CardContainer = ({
           className="All-btn"
           style={{ marginTop: "20px", marginRight: "20px" }}
           href="#"
+          passHref
         >
           <p>
             All

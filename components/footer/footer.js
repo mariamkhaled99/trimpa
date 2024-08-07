@@ -12,17 +12,17 @@ const Footer = () => {
           {/* Social Icons */}
           <Flex alignItems="center" mr="auto">
             <Box mx={4}>
-              <Link href="#" passHref>
+              <Link href="#" >
                 <Image src="/social-logo/meta.svg" alt="meta" />
               </Link>
             </Box>
             <Box mx={4}>
-              <Link href="#" passHref>
+              <Link href="#" >
                 <Image src="/social-logo/insta.svg" alt="insta" />
               </Link>
             </Box>
             <Box mx={4}>
-              <Link href="#" passHref>
+              <Link href="#">
                 <Image src="/social-logo/twitter.svg" alt="twitter" />
               </Link>
             </Box>

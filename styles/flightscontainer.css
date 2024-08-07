@@ -1,0 +1,26 @@
+.box-container {
+    /* Ensure that the container handles overflow */
+    overflow: auto;
+  }
+  
+  table {
+    /* Optional: Add general styling for the table */
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  td, th {
+    /* Add general cell styling */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  thead th {
+    /* Optional: Add border styling for table headers */
+    border-bottom: 2px solid #ddd;
+  }
+  
+  td div {
+    /* Add styling to split cells into two horizontal parts */
+    padding: 4px;
+  }
+  

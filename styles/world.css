@@ -4,6 +4,8 @@
   background: url("../public/gradient.png") no-repeat;
   background-size: cover;
   -webkit-background-clip: text;
+  -moz-background-clip: text; /* For older versions of Firefox */
+  background-clip: text;
   color: transparent;
   margin: 0;
   padding-top: 80px; 

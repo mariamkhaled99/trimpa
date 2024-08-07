@@ -1,9 +1,7 @@
 "use client";
 import React, { useState } from "react";
-
 import World from "@/components/world";
 import Cardcontainer from "@/components/cardcontainer";
-import CustomCard from "@/components/card";
 import Explore from "@/components/explore";
 import Testmonialscontainer from "@/components/review/testmonialscontainer";
 import { cardData, ReviewData, PlacesData } from "@/app/data";

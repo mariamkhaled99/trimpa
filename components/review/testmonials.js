@@ -1,7 +1,5 @@
 import React from "react";
-import { Box, Button, Text, Spacer, Link, Image } from "@chakra-ui/react";
-import "@/styles/testmonials.css";
-import Cardtestimonial from "./cardtestimonial";
+import { Box, Text } from "@chakra-ui/react";
 
 const Testmonials = () => {
   return (
@@ -13,8 +11,16 @@ const Testmonials = () => {
       marginBottom="60px"
       width="90%"
       mx="auto"
+      sx={{ zIndex: 1000 }} // Add z-index style inline using sx
     >
-      <Text className="title-testmonials">
+      <Text
+        sx={{
+          fontSize: "24px",
+          fontWeight: "bold",
+          textAlign: "center",
+          marginBottom: "20px",
+        }}
+      >
         What <span style={{ color: "#605dec" }}>Trimpa</span> users are saying
       </Text>
     </Box>

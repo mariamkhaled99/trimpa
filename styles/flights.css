@@ -30,6 +30,8 @@
   text-align: left;
   background: linear-gradient(180deg, #5cd6c0 0%, #22c3a6 100%);
   -webkit-background-clip: text;
+  -moz-background-clip: text; /* For older versions of Firefox */
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
 }
