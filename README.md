@@ -1,5 +1,17 @@
 ![Trimpa Logo](./public/logo.svg)
 
+<h1 style="
+    color: #605dec;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 90px;
+    text-align: center;
+">
+    It’s more than <br />
+    just a trip
+</h1>
+
 #
 
 ## Overview
