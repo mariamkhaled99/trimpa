@@ -1,0 +1,35 @@
+.footer-header {
+  color: #6e7491; /* Heading color */
+  font-family: "Nunito Sans", sans-serif; /* Font family */
+  font-size: 18px; /* Font size */
+  font-weight: 700; /* Font weight */
+  line-height: 24.55px; /* Line height */
+  text-align: left; /* Text alignment */
+  text-decoration: none; /* Remove underline from text */
+}
+
+/* Style for the list items */
+ul li {
+  font-family: "Nunito Sans", sans-serif; /* Font family */
+  font-size: 16px; /* Font size */
+  font-weight: 400; /* Font weight */
+  line-height: 21.82px; /* Line height */
+  text-align: left; /* Text alignment */
+  color: #7c8db0; /* Text color */
+  text-decoration: none; /* Remove underline from text */
+}
+
+/* Style for the unordered list to ensure no default styling */
+ul {
+  list-style: none; /* Remove default bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+.copyright {
+  font-family: "Nunito Sans", sans-serif; /* Font family */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.55px;
+  text-align: right;
+  color: #7c8db0;
+}

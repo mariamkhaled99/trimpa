@@ -1,0 +1,50 @@
+.box-container {
+  margin-bottom: 60px !important;
+}
+.fligt-deals-h {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.74px;
+  text-align: left;
+  color: #6e7491;
+}
+
+.fligt-deals-btn {
+  font-family: "Nunito Sans", sans-serif;
+  margin-left: 10px !important;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.74px;
+  text-align: left;
+  color: #605dec;
+  text-decoration: none;
+}
+
+.places-to-btn {
+  font-family: "Nunito Sans", sans-serif;
+  margin-left: 10px !important;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.74px;
+  text-align: left;
+  background: linear-gradient(180deg, #5cd6c0 0%, #22c3a6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.All-btn {
+  border: none;
+  background: none;
+  color: #6e7491;
+  font: inherit;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+.All-btn-img {
+  height: 0.75em; /* This sets the image height to match the text size */
+  vertical-align: middle; /* Aligns the image vertically with the text */
+  color: #6e7491;
+}

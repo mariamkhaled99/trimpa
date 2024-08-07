@@ -22,7 +22,9 @@ const Navbar = () => {
       <Flex alignItems="center">
         <Box>
           {/* Logo */}
-          <Image src="/logo.svg" alt="Logo" />
+          <Link href="/" className="link-flights" passHref>
+            <Image src="/logo.svg" alt="Logo" />
+          </Link>
         </Box>
         <Spacer />
         <Flex alignItems="center">

@@ -1,0 +1,20 @@
+.explore-btn {
+  padding: 16px; /* Adjust padding as needed */
+
+  border: none; /* Remove border */
+  background-color: #605dec; /* Example background color */
+  font-size: 16px; /* Adjust font size if needed */
+  font-weight: bold; /* Adjust font weight if needed */
+}
+.explore-link {
+  text-decoration: none; /* Remove text decoration */
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24.55px;
+  color: #fafafa; /* Set text color to white */
+}
+
+.explore-btn:hover {
+  background-color: #4a4fcf; /* Darker background color on hover */
+}
