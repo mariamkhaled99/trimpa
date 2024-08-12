@@ -65,7 +65,7 @@ const DropdownWithCounters = () => {
               border: "1px solid #e2e8f0", // Border color
               boxShadow: "0 2px 6px rgba(0, 0, 0, 0.2)", // Shadow effect
               zIndex: 1000, // High z-index value
-              padding: 0, // Remove default padding
+              padding: 2, // Remove default padding
             }}
           >
             <MenuItem
@@ -75,32 +75,36 @@ const DropdownWithCounters = () => {
               justifyContent="space-between"
               px={3} // Add padding to MenuItem
             >
-              <Text mx={2}>Adults:</Text>
-              <Button
-                onClick={() => decrement("adult")}
-                size="sm"
-                sx={{
-                  color: "#605dec",
-                  backgroundColor: "white",
-                  border: "none",
-                  fontSize: "20px",
-                }}
-              >
-                -
-              </Button>
-              <Text mx={2}>{adultCount}</Text>
-              <Button
-                onClick={() => increment("adult")}
-                size="sm"
-                sx={{
-                  color: "#605dec",
-                  backgroundColor: "white",
-                  border: "none",
-                  fontSize: "20px",
-                }}
-              >
-                +
-              </Button>
+              <Text flex="1" textAlign="left" pt={10}>Adults:</Text>
+              <Flex alignItems="center" justifyContent="center" gap={2}>
+                <Button
+                  onClick={() => decrement("adult")}
+                  size="sm"
+                  sx={{
+                    color: "#605dec",
+                    backgroundColor: "white",
+                    border: "none",
+                    fontSize: "20px",
+                    minWidth: "30px", // Set a minimum width for consistent button size
+                  }}
+                >
+                  -
+                </Button>
+                <Text alignItems="center" pt={10}>{adultCount}</Text>
+                <Button
+                  onClick={() => increment("adult")}
+                  size="sm"
+                  sx={{
+                    color: "#605dec",
+                    backgroundColor: "white",
+                    border: "none",
+                    fontSize: "20px",
+                    minWidth: "30px", // Set a minimum width for consistent button size
+                  }}
+                >
+                  +
+                </Button>
+              </Flex>
             </MenuItem>
             <MenuItem
               as={Box}
@@ -109,32 +113,36 @@ const DropdownWithCounters = () => {
               justifyContent="space-between"
               px={3} // Add padding to MenuItem
             >
-              <Text mx={2}>Minors:</Text>
-              <Button
-                onClick={() => decrement("minor")}
-                size="sm"
-                sx={{
-                  color: "#605dec",
-                  backgroundColor: "white",
-                  border: "none",
-                  fontSize: "20px",
-                }}
-              >
-                -
-              </Button>
-              <Text mx={2}>{minorCount}</Text>
-              <Button
-                onClick={() => increment("minor")}
-                size="sm"
-                sx={{
-                  color: "#605dec",
-                  backgroundColor: "white",
-                  border: "none",
-                  fontSize: "20px",
-                }}
-              >
-                +
-              </Button>
+              <Text flex="1" textAlign="left" pt={10}>Minors:</Text>
+              <Flex alignItems="center" justifyContent="center" gap={2}>
+                <Button
+                  onClick={() => decrement("minor")}
+                  size="sm"
+                  sx={{
+                    color: "#605dec",
+                    backgroundColor: "white",
+                    border: "none",
+                    fontSize: "20px",
+                    minWidth: "30px", // Set a minimum width for consistent button size
+                  }}
+                >
+                  -
+                </Button>
+                <Text pt={10}>{minorCount}</Text>
+                <Button
+                  onClick={() => increment("minor")}
+                  size="sm"
+                  sx={{
+                    color: "#605dec",
+                    backgroundColor: "white",
+                    border: "none",
+                    fontSize: "20px",
+                    minWidth: "30px", // Set a minimum width for consistent button size
+                  }}
+                >
+                  +
+                </Button>
+              </Flex>
             </MenuItem>
           </MenuList>
         </Box>

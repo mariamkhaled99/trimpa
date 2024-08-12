@@ -4,6 +4,7 @@ import World from "@/components/world";
 import Cardcontainer from "@/components/cardcontainer";
 import Explore from "@/components/explore";
 import Testmonialscontainer from "@/components/review/testmonialscontainer";
+
 import { cardData, ReviewData, PlacesData } from "@/app/data";
 
 export default function Home() {
